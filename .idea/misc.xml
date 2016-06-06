@@ -5,6 +5,9 @@
     <option name="FORCE_JUMBO" value="true" />
     <option name="PROGUARD_VM_OPTIONS" value="-XX:MaxHeapSize=256m -Xmx256m" />
   </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
     <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />

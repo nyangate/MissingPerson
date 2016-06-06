@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -13,8 +14,15 @@
     tools:context="com.robertny.missingperson.MissingPerson"
     tools:showIn="@layout/activity_missing_person">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+    <it.gmariotti.cardslib.library.view.CardGridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="140dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="2dp"
+        android:horizontalSpacing="2dp"
+        android:stretchMode="columnWidth"
+        android:gravity="fill"
+        card:list_card_layout_resourceID="@layout/carddemo_grid_gplay"
+        android:id="@+id/myGrid"/>
 </RelativeLayout>
